@@ -51,15 +51,13 @@ html
 }
 
 html, body {
+    background-color: #e40e0e; /* ya aapke website ke main bg color */
     width: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
-
-
-*
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -1589,4 +1587,14 @@ button:hover {
     justify-content: center;
     align-items: center; */
 }
-  
+
+::-webkit-scrollbar {
+    width: 5px; /* Scroll bar ki width */
+}
+::-webkit-scrollbar-track {
+    background: #081c0f; /* Apne background ka color */
+}
+::-webkit-scrollbar-thumb {
+    background: #00ff99; /* Scrollbar ka color (change kar sakte ho) */
+    border-radius: 5px;
+}
