@@ -51,7 +51,7 @@ html
 }
 
 html, body {
-    background-color: #e40e0e; /* ya aapke website ke main bg color */
+    background-color: #e40e0e00; /* ya aapke website ke main bg color */
     width: 100%;
     overflow-x: hidden;
     margin: 0;
@@ -1589,12 +1589,12 @@ button:hover {
 }
 
 ::-webkit-scrollbar {
-    width: 5px; /* Scroll bar ki width */
+    width: 1px; /* Scroll bar ki width */
 }
 ::-webkit-scrollbar-track {
-    background: #081c0f; /* Apne background ka color */
+    background: #081c0f00; /* Apne background ka color */
 }
 ::-webkit-scrollbar-thumb {
-    background: #00ff99; /* Scrollbar ka color (change kar sakte ho) */
+    background: #00ff9900; /* Scrollbar ka color (change kar sakte ho) */
     border-radius: 5px;
 }
