@@ -51,7 +51,7 @@ html
 }
 
 html, body {
-    background-color: #e40e0e00; /* ya aapke website ke main bg color */
+    background-color: #030c09; /* ya aapke website ke main bg color */
     width: 100%;
     overflow-x: hidden;
     margin: 0;
@@ -1595,6 +1595,6 @@ button:hover {
     background: #081c0f00; /* Apne background ka color */
 }
 ::-webkit-scrollbar-thumb {
-    background: #00ff9900; /* Scrollbar ka color (change kar sakte ho) */
+    background: #00ff9900; 
     border-radius: 5px;
 }
