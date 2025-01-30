@@ -1641,13 +1641,16 @@ button:hover {
     .menu-container {
         display: block;
     }
+    .header .logo{
+        /* display: none; */
+    }
 
     .menu-container {
         display: flex;
         justify-content: flex-end;
         padding: 15px;
         position:sticky;
-        top: 40px;
+        top: 35px;
         right: 20px;
         z-index: 1000;
     }
@@ -1688,7 +1691,7 @@ button:hover {
         position: fixed;
         top: 0;
         left: -1000%;
-        width: 50%;
+        width: 30%;
         height: 100vh;
         background: rgba(3, 12, 9, 0.95);
         backdrop-filter: blur(10px);
@@ -1709,10 +1712,13 @@ button:hover {
     .mobile-nav ul li {
         margin: 20px 0;
     }
+    .mobile-nav ul .logo{
+        font-size: 1.7rem;
+    }
 
     .mobile-nav ul li a {
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: ghostwhite;
         display: block;
         text-align: left;
