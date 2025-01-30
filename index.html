@@ -77,16 +77,68 @@
 </head>
 <body>
     <div class="hero">
-        <div class="header">
+        <!-- <div class="header">
             <h1 class="logo">Growt<span>X</span></h1>
             <ul class="nav">
                 <li><a href=".hero">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <!-- <li><a href="#service">Service</a></li>
-                <li><a href="#plan">Plan</a></li>
-                <li><a href="#contact">Contact</a></li> -->
             </ul>
         </div>
+
+        <div class="menu-container">
+            <div class="menu-button" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        
+        <-- Mobile Navigation Menu -->
+        <!-- <nav class="mobile-nav" id="mobileNav">
+            <ul>
+                <li><a href=".hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#plan">Plan</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav> -->
+
+
+
+        <header class="header">
+            <h1 class="logo">Growt<span>X</span></h1>
+            <ul class="nav desktop-nav">
+                <li><a href=".hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#plan">Plan</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        
+            <!-- Mobile Menu Button -->
+            <div class="menu-container">
+                <div class="menu-button" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Mobile Navigation Menu -->
+        <nav class="mobile-nav" id="mobileNav">
+            <ul>
+                <h1 class="logo" onclick="toggleMenu">Growt<span>X</span></h1>
+                <li><a href=".hero" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#service" onclick="toggleMenu()">Service</a></li>
+                <li><a href="#plan" onclick="toggleMenu()">Plan</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </nav>
+        
+        
 
 
         <div class="box-grid">
@@ -544,6 +596,7 @@
 
     <script src="metetags.js"></script>
     <script src="preloader.js"></script>
+    <script src="menu-buttton.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
