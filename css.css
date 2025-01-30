@@ -1650,7 +1650,7 @@ button:hover {
         justify-content: flex-end;
         padding: 15px;
         position:sticky;
-        top: 34px;
+        top: 32px;
         right: 20px;
         z-index: 1000;
     }
