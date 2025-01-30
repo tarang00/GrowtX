@@ -51,7 +51,7 @@ html
 }
 
 html, body {
-    background-color: #030c09; /* ya aapke website ke main bg color */
+    /* background-color: #030c09; ya aapke website ke main bg color */
     width: 100%;
     overflow-x: hidden;
     margin: 0;
