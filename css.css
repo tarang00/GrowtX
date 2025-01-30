@@ -1693,7 +1693,7 @@ button:hover {
         left: -1000%;
         width: 30%;
         height: 100vh;
-        background: rgba(3, 12, 9, 0.95);
+        background: rgba(3, 12, 9, 0.664);
         backdrop-filter: blur(10px);
         transition: 0.4s;
         z-index: 999;
@@ -1713,7 +1713,11 @@ button:hover {
         margin: 20px 0;
     }
     .mobile-nav ul .logo{
-        font-size: 1.7rem;
+        /* text-align: center; */
+        font-size: 1.3rem;
+
+        /* margin: 0 auto; */
+        padding-right: 12px;
     }
 
     .mobile-nav ul li a {
