@@ -1627,6 +1627,11 @@ button:hover {
     .mobile-nav{
         display: none;
     }
+    .header{
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 35px 0px;
+    }
 }
 @media screen and (max-width: 768px) {
     .desktop-nav {
