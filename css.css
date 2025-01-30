@@ -1688,7 +1688,7 @@ button:hover {
         position: fixed;
         top: 0;
         left: -1000%;
-        width: 45%;
+        width: 50%;
         height: 100vh;
         background: rgba(3, 12, 9, 0.95);
         backdrop-filter: blur(10px);
